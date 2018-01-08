@@ -1,0 +1,17 @@
+{
+  "name": "nuxt-socketio",
+  "scripts": {
+    "dev": "nodemon -w ./server/server.js -w nuxt.config.js ./server/server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node ./server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "nuxt": "latest",
+    "socket.io": "^1.7.2",
+    "socket.io-client": "^1.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
